@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="292dp"
+        android:onClick="v2"
+        android:text="اركان الصلاة"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="292dp"
+        android:onClick="v1"
+        android:text="الوضوء"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="v3"
+        android:text="النوافل"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="255dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="76dp"
+        android:onClick="v8"
+        android:text="اذكار ما بعد الصلاة"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="255dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="v7"
+        android:text="اذكار ما بعد الوضوء"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="148dp"
+        android:onClick="v5"
+        android:text="اذكار الصباح"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="148dp"
+        android:onClick="v6"
+        android:text="اذكار المساء"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="v4"
+        android:text="وضع الصلاة"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="347dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
